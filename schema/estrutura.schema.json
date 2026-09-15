@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/wagnermarques/legis-dados/blob/main/schema/estrutura.schema.json",
+  "title": "estrutura.json",
+  "description": "Árvore de divisões da norma (Parte > Título > Capítulo > Seção > Subseção > artigos). Também é pesquisável — os títulos das divisões entram no índice de busca do legisreader.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/no" },
+  "$defs": {
+    "no": {
+      "type": "object",
+      "required": ["tipo", "rotulo", "rubrica", "filhos"],
+      "additionalProperties": false,
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": ["parte", "titulo", "capitulo", "secao", "subsecao", "artigo"]
+        },
+        "rotulo": { "type": "string", "minLength": 1, "description": "Ex.: \"Título I\", \"Art. 121\"." },
+        "rubrica": {
+          "type": ["string", "null"],
+          "description": "Ex.: \"Dos crimes contra a pessoa\"."
+        },
+        "id": {
+          "type": "string",
+          "description": "Só quando tipo=artigo: id do dispositivo correspondente em dispositivos.json."
+        },
+        "filhos": { "type": "array", "items": { "$ref": "#/$defs/no" } }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "tipo": { "const": "artigo" } } },
+          "then": { "required": ["id"] }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/wagnermarques/legis-dados/blob/main/schema/indice.schema.json",
+  "title": "indice.json",
+  "description": "Lista leve das normas disponíveis em dados/, para o app carregar sem baixar tudo de uma vez.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["urn", "nome", "caminho"],
+    "additionalProperties": false,
+    "properties": {
+      "urn": { "type": "string", "pattern": "^urn:lex:" },
+      "nome": { "type": "string", "minLength": 1 },
+      "caminho": {
+        "type": "string",
+        "description": "Caminho de dados/ para esta norma, ex.: \"br/federal/decreto-lei/1940-2848\"."
+      }
+    }
+  }
+}

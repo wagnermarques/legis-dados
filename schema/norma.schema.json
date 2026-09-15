@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/wagnermarques/legis-dados/blob/main/schema/norma.schema.json",
+  "title": "norma.json",
+  "description": "Metadados de uma norma: identidade, ementa, fonte e data da captura.",
+  "type": "object",
+  "required": ["urn", "nome", "ementa", "dataPublicacao", "fonte", "urlFonte", "capturadoEm"],
+  "additionalProperties": false,
+  "properties": {
+    "urn": {
+      "type": "string",
+      "pattern": "^urn:lex:",
+      "description": "URN LEX do LexML, ex.: urn:lex:br:federal:decreto.lei:1940-12-07;2848."
+    },
+    "nome": { "type": "string", "minLength": 1, "description": "Ex.: \"Código Penal\"." },
+    "ementa": { "type": "string", "minLength": 1 },
+    "dataPublicacao": {
+      "type": "string",
+      "format": "date",
+      "description": "Data da publicação original no Diário Oficial."
+    },
+    "fonte": { "type": "string", "description": "Ex.: \"planalto\"." },
+    "urlFonte": { "type": "string", "format": "uri" },
+    "capturadoEm": { "type": "string", "format": "date" }
+  }
+}

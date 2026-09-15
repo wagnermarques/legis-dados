@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/wagnermarques/legis-dados/blob/main/schema/dispositivo.schema.json",
+  "title": "dispositivos.json",
+  "description": "Todos os dispositivos de uma norma, cada um com o histórico de versões do seu texto.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/dispositivo" },
+  "$defs": {
+    "dispositivo": {
+      "type": "object",
+      "required": ["id", "tipo", "rotulo", "rubrica", "pai", "versoes", "observacoes"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "Estável — nunca muda, mesmo com mudança de texto ou renumeração. Ver docs/convencao-ids.md."
+        },
+        "tipo": {
+          "type": "string",
+          "enum": ["artigo", "caput", "paragrafo", "inciso", "alinea", "item", "pena"]
+        },
+        "rotulo": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Ex.: \"Art. 121\", \"§ 2º\", \"VI –\", \"a)\"."
+        },
+        "rubrica": {
+          "type": ["string", "null"],
+          "description": "Título marginal do dispositivo (ex.: \"Feminicídio\"), quando existir."
+        },
+        "pai": {
+          "type": ["string", "null"],
+          "description": "id do dispositivo pai. Só é null quando tipo=artigo (o pai é um nó de estrutura.json, não outro dispositivo)."
+        },
+        "versoes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/versao" }
+        },
+        "observacoes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ex.: decisão do STF em controle de constitucionalidade. Preenchidas à mão."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "tipo": { "const": "artigo" } } },
+          "else": { "properties": { "pai": { "type": "string" } } }
+        }
+      ]
+    },
+    "versao": {
+      "type": "object",
+      "required": [
+        "texto",
+        "vigenteDesde",
+        "vigenteAte",
+        "evento",
+        "origem",
+        "vigenciaConfirmada",
+        "capturadoEm",
+        "fonte"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "texto": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Texto limpo: sem HTML e sem notas de alteração misturadas (essas vão em origem/evento)."
+        },
+        "vigenteDesde": { "type": "string", "format": "date" },
+        "vigenteAte": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "null = versão vigente."
+        },
+        "evento": {
+          "type": "string",
+          "enum": ["original", "incluido", "redacao-dada", "revogado", "renumerado"]
+        },
+        "origem": {
+          "type": ["string", "null"],
+          "pattern": "^urn:lex:",
+          "description": "URN LEX da lei que originou esta versão. null só para a versão \"original\" ligada ao próprio ato (a URN da norma já está em norma.json)."
+        },
+        "vigenciaConfirmada": {
+          "type": "boolean",
+          "description": "true só após revisão humana (vacatio legis, vetos). Começa sempre false."
+        },
+        "capturadoEm": { "type": "string", "format": "date" },
+        "fonte": {
+          "type": "string",
+          "description": "Ex.: \"planalto\", \"dou\"."
+        }
+      }
+    }
+  }
+}
