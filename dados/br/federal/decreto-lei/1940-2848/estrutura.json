@@ -1,0 +1,982 @@
+[
+  {
+    "tipo": "parte",
+    "rotulo": "PARTE GERAL",
+    "rubrica": null,
+    "filhos": [
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO I",
+        "rubrica": "DA APLICAÇÃO DA LEI PENAL",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 1º",
+            "rubrica": "Anterioridade da Lei",
+            "id": "art1",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 2º",
+            "rubrica": "Lei penal no tempo",
+            "id": "art2",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 3º",
+            "rubrica": "Lei excepcional ou temporária",
+            "id": "art3",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 4º",
+            "rubrica": "Tempo do crime",
+            "id": "art4",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 5º",
+            "rubrica": "Territorialidade",
+            "id": "art5",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 6º",
+            "rubrica": "Lugar do crime",
+            "id": "art6",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 7º",
+            "rubrica": "Extraterritorialidade",
+            "id": "art7",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 8º",
+            "rubrica": "Pena cumprida no estrangeiro",
+            "id": "art8",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 9º",
+            "rubrica": "Eficácia de sentença estrangeira",
+            "id": "art9",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 10",
+            "rubrica": "Contagem de prazo",
+            "id": "art10",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 11",
+            "rubrica": "Frações não computáveis da pena",
+            "id": "art11",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 12",
+            "rubrica": "Legislação especial",
+            "id": "art12",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO II",
+        "rubrica": "DO CRIME",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 13",
+            "rubrica": "Relação de causalidade",
+            "id": "art13",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 14",
+            "rubrica": null,
+            "id": "art14",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 15",
+            "rubrica": "Desistência voluntária e arrependimento eficaz",
+            "id": "art15",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 16",
+            "rubrica": "Arrependimento posterior",
+            "id": "art16",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 17",
+            "rubrica": "Crime impossível",
+            "id": "art17",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 18",
+            "rubrica": null,
+            "id": "art18",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 19",
+            "rubrica": "Agravação pelo resultado",
+            "id": "art19",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 20",
+            "rubrica": "Erro sobre elementos do tipo",
+            "id": "art20",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 21",
+            "rubrica": "Erro sobre a ilicitude do fato",
+            "id": "art21",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 22",
+            "rubrica": "Coação irresistível e obediência hierárquica",
+            "id": "art22",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 23",
+            "rubrica": "Exclusão de ilicitude",
+            "id": "art23",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 24",
+            "rubrica": "Estado de necessidade",
+            "id": "art24",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 25",
+            "rubrica": "Legítima defesa",
+            "id": "art25",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO III",
+        "rubrica": "DA IMPUTABILIDADE PENAL",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 26",
+            "rubrica": "Inimputáveis",
+            "id": "art26",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 27",
+            "rubrica": "Menores de dezoito anos",
+            "id": "art27",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 28",
+            "rubrica": "Emoção e paixão",
+            "id": "art28",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO IV",
+        "rubrica": "DO CONCURSO DE PESSOAS",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 29",
+            "rubrica": null,
+            "id": "art29",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 30",
+            "rubrica": "Circunstâncias incomunicáveis",
+            "id": "art30",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 31",
+            "rubrica": "Casos de impunibilidade",
+            "id": "art31",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO V",
+        "rubrica": "DAS PENAS",
+        "filhos": [
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO I",
+            "rubrica": "DAS ESPÉCIES DE PENA",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 32",
+                "rubrica": null,
+                "id": "art32",
+                "filhos": []
+              },
+              {
+                "tipo": "secao",
+                "rotulo": "SEÇÃO I",
+                "rubrica": "DAS PENAS PRIVATIVAS DE LIBERDADE",
+                "filhos": [
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 33",
+                    "rubrica": "Reclusão e detenção",
+                    "id": "art33",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 34",
+                    "rubrica": "Regras do regime fechado",
+                    "id": "art34",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 35",
+                    "rubrica": "Regras do regime semi-aberto",
+                    "id": "art35",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 36",
+                    "rubrica": "Regras do regime aberto",
+                    "id": "art36",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 37",
+                    "rubrica": "Regime especial",
+                    "id": "art37",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 38",
+                    "rubrica": "Direitos do preso",
+                    "id": "art38",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 39",
+                    "rubrica": "Trabalho do preso",
+                    "id": "art39",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 40",
+                    "rubrica": "Legislação especial",
+                    "id": "art40",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 41",
+                    "rubrica": "Superveniência de doença mental",
+                    "id": "art41",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 42",
+                    "rubrica": "Detração",
+                    "id": "art42",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "tipo": "secao",
+                "rotulo": "SEÇÃO II",
+                "rubrica": "DAS PENAS RESTRITIVAS DE DIREITOS",
+                "filhos": [
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 43",
+                    "rubrica": "Penas restritivas de direitos",
+                    "id": "art43",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 44",
+                    "rubrica": null,
+                    "id": "art44",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 45",
+                    "rubrica": "Conversão das penas restritivas de direitos",
+                    "id": "art45",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 46",
+                    "rubrica": "Prestação de serviços à comunidade ou a entidades públicas",
+                    "id": "art46",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 47",
+                    "rubrica": "Interdição temporária de direitos",
+                    "id": "art47",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 48",
+                    "rubrica": "Limitação de fim de semana",
+                    "id": "art48",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "tipo": "secao",
+                "rotulo": "SEÇÃO III",
+                "rubrica": "DA PENA DE MULTA",
+                "filhos": [
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 49",
+                    "rubrica": "Multa",
+                    "id": "art49",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 50",
+                    "rubrica": "Pagamento da multa",
+                    "id": "art50",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 51",
+                    "rubrica": "Conversão da Multa e revogação",
+                    "id": "art51",
+                    "filhos": []
+                  },
+                  {
+                    "tipo": "artigo",
+                    "rotulo": "Art. 52",
+                    "rubrica": "Suspensão da execução da multa",
+                    "id": "art52",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO II",
+            "rubrica": "DA COMINAÇÃO DAS PENAS",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 53",
+                "rubrica": "Penas privativas de liberdade",
+                "id": "art53",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 54",
+                "rubrica": "Penas restritivas de direitos",
+                "id": "art54",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 55",
+                "rubrica": null,
+                "id": "art55",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 56",
+                "rubrica": null,
+                "id": "art56",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 57",
+                "rubrica": null,
+                "id": "art57",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 58",
+                "rubrica": "Pena de multa",
+                "id": "art58",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO III",
+            "rubrica": "DA APLICAÇÃO DA PENA",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 59",
+                "rubrica": "Fixação da pena",
+                "id": "art59",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 60",
+                "rubrica": "Critérios especiais da pena de multa",
+                "id": "art60",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 61",
+                "rubrica": "Circunstâncias agravantes",
+                "id": "art61",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 62",
+                "rubrica": "Agravantes no caso de concurso de pessoas",
+                "id": "art62",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 63",
+                "rubrica": "Reincidência",
+                "id": "art63",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 64",
+                "rubrica": null,
+                "id": "art64",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 65",
+                "rubrica": "Circunstâncias atenuantes",
+                "id": "art65",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 66",
+                "rubrica": null,
+                "id": "art66",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 67",
+                "rubrica": "Concurso de circunstâncias agravantes e atenuantes",
+                "id": "art67",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 68",
+                "rubrica": "Cálculo da pena",
+                "id": "art68",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 69",
+                "rubrica": "Concurso material",
+                "id": "art69",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 70",
+                "rubrica": "Concurso formal",
+                "id": "art70",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 71",
+                "rubrica": "Crime continuado",
+                "id": "art71",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 72",
+                "rubrica": "Multas no concurso de crimes",
+                "id": "art72",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 73",
+                "rubrica": "Erro na execução",
+                "id": "art73",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 74",
+                "rubrica": "Resultado diverso do pretendido",
+                "id": "art74",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 75",
+                "rubrica": "Limite das penas",
+                "id": "art75",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 76",
+                "rubrica": "Concurso de infrações",
+                "id": "art76",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO IV",
+            "rubrica": "DA SUSPENSÃO CONDICIONAL DA PENA",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 77",
+                "rubrica": "Requisitos da suspensão da pena",
+                "id": "art77",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 78",
+                "rubrica": null,
+                "id": "art78",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 79",
+                "rubrica": null,
+                "id": "art79",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 80",
+                "rubrica": null,
+                "id": "art80",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 81",
+                "rubrica": "Revogação obrigatória",
+                "id": "art81",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 82",
+                "rubrica": "Cumprimento das condições",
+                "id": "art82",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO V",
+            "rubrica": "DO LIVRAMENTO CONDICIONAL",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 83",
+                "rubrica": "Requisitos do livramento condicional",
+                "id": "art83",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 84",
+                "rubrica": "Soma de penas",
+                "id": "art84",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 85",
+                "rubrica": "Especificações das condições",
+                "id": "art85",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 86",
+                "rubrica": "Revogação do livramento",
+                "id": "art86",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 87",
+                "rubrica": "Revogação facultativa",
+                "id": "art87",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 88",
+                "rubrica": "Efeitos da revogação",
+                "id": "art88",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 89",
+                "rubrica": "Extinção",
+                "id": "art89",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 90",
+                "rubrica": null,
+                "id": "art90",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO VI",
+            "rubrica": "DOS EFEITOS DA CONDENAÇÃO",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 91",
+                "rubrica": "Efeitos genéricos e específicos",
+                "id": "art91",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 91-A",
+                "rubrica": null,
+                "id": "art91-a",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 92",
+                "rubrica": null,
+                "id": "art92",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "tipo": "capitulo",
+            "rotulo": "CAPÍTULO VII",
+            "rubrica": "DA REABILITAÇÃO",
+            "filhos": [
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 93",
+                "rubrica": "Reabilitação",
+                "id": "art93",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 94",
+                "rubrica": null,
+                "id": "art94",
+                "filhos": []
+              },
+              {
+                "tipo": "artigo",
+                "rotulo": "Art. 95",
+                "rubrica": null,
+                "id": "art95",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO VI",
+        "rubrica": "DAS MEDIDAS DE SEGURANÇA",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 96",
+            "rubrica": "Espécies de medidas de segurança",
+            "id": "art96",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 97",
+            "rubrica": "Imposição da medida de segurança para inimputável",
+            "id": "art97",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 98",
+            "rubrica": "Substituição da pena por medida de segurança para o semi-imputável",
+            "id": "art98",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 99",
+            "rubrica": "Direitos do internado",
+            "id": "art99",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO VII",
+        "rubrica": "DA AÇÃO PENAL",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 100",
+            "rubrica": "Ação pública e de iniciativa privada",
+            "id": "art100",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 101",
+            "rubrica": "A ação penal no crime complexo",
+            "id": "art101",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 102",
+            "rubrica": "Irretratabilidade da representação",
+            "id": "art102",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 103",
+            "rubrica": "Decadência do direito de queixa ou de representação",
+            "id": "art103",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 104",
+            "rubrica": "Renúncia expressa ou tácita do direito de queixa",
+            "id": "art104",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 105",
+            "rubrica": "Perdão do ofendido",
+            "id": "art105",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 106",
+            "rubrica": null,
+            "id": "art106",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "rotulo": "TÍTULO VIII",
+        "rubrica": "DA EXTINÇÃO DA PUNIBILIDADE",
+        "filhos": [
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 107",
+            "rubrica": "Extinção da punibilidade",
+            "id": "art107",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 108",
+            "rubrica": null,
+            "id": "art108",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 109",
+            "rubrica": "Prescrição antes de transitar em julgado a sentença",
+            "id": "art109",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 110",
+            "rubrica": "Prescrição depois de transitar em julgado sentença final condenatória",
+            "id": "art110",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 111",
+            "rubrica": "Termo inicial da prescrição antes de transitar em julgado a sentença final",
+            "id": "art111",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 112",
+            "rubrica": "Termo inicial da prescrição após a sentença condenatória irrecorrível",
+            "id": "art112",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 113",
+            "rubrica": "Prescrição no caso de evasão do condenado ou de revogação do livramento condicional",
+            "id": "art113",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 114",
+            "rubrica": "Prescrição da multa",
+            "id": "art114",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 115",
+            "rubrica": "Redução dos prazos de prescrição",
+            "id": "art115",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 116",
+            "rubrica": "Causas impeditivas da prescrição",
+            "id": "art116",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 117",
+            "rubrica": "Causas interruptivas da prescrição",
+            "id": "art117",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 118",
+            "rubrica": null,
+            "id": "art118",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 119",
+            "rubrica": null,
+            "id": "art119",
+            "filhos": []
+          },
+          {
+            "tipo": "artigo",
+            "rotulo": "Art. 120",
+            "rubrica": "Perdão judicial",
+            "id": "art120",
+            "filhos": []
+          }
+        ]
+      }
+    ]
+  }
+]

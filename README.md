@@ -72,10 +72,17 @@ dados/
     dispositivos.json  # todos os dispositivos com suas versões
   indice.json           # lista leve de normas disponíveis
 schema/                 # JSON Schema do formato (validado no CI a cada PR)
-pipeline/               # scripts Node: capturar, converter, validar, detectar, publicar
+pipeline/
+  html-texto.mjs             # HTML do Planalto -> blocos de texto puro
+  nota-alteracao.mjs         # extrai "(Redação dada por...)" etc. do fim de um texto
+  parser-parte-geral.mjs     # blocos -> { estrutura, dispositivos } (só Parte Geral, D2)
+  parser-parte-geral.test.mjs # testes golden sobre o snapshot real
+  importar-parte-geral.mjs   # CLI: snapshot -> dados/ + indice.json
+  validar-dados.mjs          # CLI: valida dados/ contra o schema (rodado no CI)
 docs/
-  convencao-ids.md      # como um dispositivo ganha seu id estável
-.github/workflows/       # validação de PR contra o schema (monitor diário vem no D3)
+  convencao-ids.md             # como um dispositivo ganha seu id estável
+  parte-especial-pendente.md   # o que falta e por quê (D2 cobre só a Parte Geral)
+.github/workflows/       # testes + validação de PR contra o schema (monitor diário vem no D3)
 ```
 
 O caminho dos dados segue a URN do LexML
@@ -98,6 +105,22 @@ de cada dispositivo é montado). Pontos importantes:
   `true` após revisão humana (vacatio legis, vetos).
 - Declaração de inconstitucionalidade pelo STF não altera o texto — vira
   `observacoes`, preenchida à mão.
+
+## Rodando o importador (Código Penal, Parte Geral — D2)
+
+```sh
+npm install
+npm run importar:parte-geral   # lê o snapshot mais recente em snapshots/, escreve dados/
+npm test                       # testes golden contra o snapshot fixo (não a rede)
+npm run validar                # confere dados/ contra o schema (mesmo comando do CI)
+```
+
+Cobre só a Parte Geral (Art. 1º–120 + 91-A) — ver
+[`docs/parte-especial-pendente.md`](docs/parte-especial-pendente.md). O
+snapshot em `snapshots/.../2026-09-15.html` já está no repositório (captura
+real, convertida de Windows-1252 — **não** ISO-8859-1, ver o mesmo doc); o
+importador não faz captura de rede sozinho ainda (isso entra com o D3,
+monitor de mudanças).
 
 ## Como o legisreader consome os dados
 

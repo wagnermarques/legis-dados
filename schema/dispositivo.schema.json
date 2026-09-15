@@ -78,7 +78,7 @@
         },
         "evento": {
           "type": "string",
-          "enum": ["original", "incluido", "redacao-dada", "revogado", "renumerado"]
+          "enum": ["original", "incluido", "redacao-dada", "revogado", "renumerado", "vetado"]
         },
         "origem": {
           "type": ["string", "null"],

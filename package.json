@@ -5,10 +5,13 @@
   "type": "module",
   "license": "AGPL-3.0-or-later",
   "scripts": {
-    "validar": "node pipeline/validar-dados.mjs"
+    "validar": "node pipeline/validar-dados.mjs",
+    "importar:parte-geral": "node pipeline/importar-parte-geral.mjs",
+    "test": "vitest run"
   },
   "devDependencies": {
     "ajv": "^8.20.0",
-    "ajv-formats": "^3.0.1"
+    "ajv-formats": "^3.0.1",
+    "vitest": "^5.0.0"
   }
 }
