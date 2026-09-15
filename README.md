@@ -16,10 +16,9 @@ Duas coisas diferentes, duas licenças diferentes:
   decisões judiciais e demais atos oficiais". Use como quiser, sem pedir
   permissão.
 - **O código** (`pipeline/`, `schema/`, workflows) é licenciado sob
-  [AGPL-3.0](LICENSE) — mesma linha do
-  [appshell](https://github.com/wagnermarques/fzl-fund-appshell--lit) e do
-  projeto de referência (biblereaderapp), por causa do uso em rede (monitor
-  diário, publicação de releases consumidas por outros apps).
+  [AGPL-3.0-or-later](LICENSE) — mesma decisão do `legisreader` (roadmap,
+  seção "Licenciamento"), pelo mesmo motivo do biblereaderapp: uso em rede
+  (monitor diário, publicação de releases consumidas por outros apps).
 
 O que **não** é coberto por nenhuma licença aberta: a *seleção e organização*
 de terceiros sobre o texto oficial (comentários, anotações, jurisprudência
